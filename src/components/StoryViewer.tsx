@@ -1,4 +1,4 @@
-// StoryViewer.tsx
+
 import React, { useEffect, useState, useRef } from 'react';
 
 interface Story {

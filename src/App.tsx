@@ -1,4 +1,4 @@
-// App.tsx
+
 import React, { useEffect, useState } from 'react';
 import { fetchStories } from './utils/fetchStories';
 import StoryList from './components/StoryList';

@@ -1,4 +1,3 @@
-// StoryList.tsx
 import React from 'react';
 
 interface Story {
