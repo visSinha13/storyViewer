@@ -15,7 +15,8 @@ interface StoryViewerProps {
 
 const StoryViewer: React.FC<StoryViewerProps> = ({ currentIndex, stories, onClose, onChangeIndex }) => {
   const [loading, setLoading] = useState(true);
-  const timerRef = useRef<NodeJS.Timeout | null>(null);
+  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
 
   useEffect(() => {
     console.log('StoryViewer mounted');

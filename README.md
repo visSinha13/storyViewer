@@ -65,3 +65,6 @@ http://localhost:5173
 ## License
 This project is licensed under the MIT License.
 
+## view in big screen instead of mobile view
+- Uncomment the following lines to enable the screen view styling for larger displays in `App.css`.
+
